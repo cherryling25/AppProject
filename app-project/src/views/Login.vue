@@ -30,6 +30,9 @@
 
 
 <script>
+$(function(){
+  alert(1);
+});
 export default {
   name : 'login',
   /* data() {
@@ -95,7 +98,7 @@ export default {
 
 .formcontent{
   margin-left: 25px;
-  margin-top:19px;
+  margin-top:25px;
 }
 
 input{
@@ -105,9 +108,23 @@ input{
   margin-left: 8px;
   size: 20px;
   width: 75%;
-  height: 70%;
+  height: 10px;
+   padding: 10px 0px;
   outline: none;
+  font-size: 15px;
 }
-  
 
+::-webkit-input-placeholder {
+     color: gray;
+     font-size: 15px;
+     padding-left: 10px;
+   
+ }
+
+
+
+button{
+  margin-top: 10px;
+
+}
 </style>
