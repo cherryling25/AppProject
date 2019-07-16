@@ -30,9 +30,6 @@
 
 
 <script>
-$(function(){
-  alert(1);
-});
 export default {
   name : 'login',
   /* data() {
